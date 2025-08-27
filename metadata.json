@@ -1,0 +1,5 @@
+{
+  "name": "Copy of LocalBites: Multilingual Restaurant Finder",
+  "description": "An application that helps users discover nearby restaurants, providing details in their chosen language. It uses your device's location to find local dining options and leverages AI to generate restaurant information.",
+  "requestFramePermissions": []
+}
