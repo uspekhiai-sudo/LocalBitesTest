@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Restaurant, Coordinates } from './types';
 import { SUPPORTED_LANGUAGES, UI_TEXT } from './constants';
-import { fetchRestaurants, fetchRestaurantsByQuery } from './services/geminiService';
+import { fetchRestaurants, fetchRestaurantsByQuery } from './services/googlePlacesService';
 import LanguageSelector from './components/LanguageSelector.tsx';
 import RestaurantList from './components/RestaurantList.tsx';
 import Loader from './components/Loader.tsx';
